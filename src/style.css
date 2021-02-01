@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanuman:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Angkor&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+.logo {
+  font-family: "Angkor", "Poppins";
+}
+
+.hanuman-font {
+  font-family: "Hanuman", Roboto, Arial, Helvetica, sans-serif;
+}
+
+div.card-recommend {
+  font-family: "Hanuman", Roboto, Arial, Helvetica, sans-serif;
+}
+
+p.card-normal-text {
+  font-size: 17px;
+  padding-bottom: 10px;
+}
+
+p.text-warning {
+  color: #ff1744;
+}
+
+.warning-panel {
+  font-size: 20px;
+}
+
+.card-action {
+  font-size: 17px;
+}
