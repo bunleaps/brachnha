@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanuman:wght@400;700&display=swap");
+
+.paragraph {
+  font-family: "Hanuman", Roboto;
+  font-size: 20px;
+}
+
+.mord {
+  font-size: 20px;
+}
+
+.modal-button {
+  font-family: "Hanuman", Roboto;
+  font-size: 17px !important;
+}
+
+/*   Styling Materialize   */
+[type="radio"]:not(:checked) + span,
+[type="radio"]:checked + span {
+  color: black;
+  font-family: "Latin Modern Mono";
+  font-size: 20px !important;
+}
+
+[type="radio"]:checked + span:after,
+[type="radio"].with-gap:checked + span:before,
+[type="radio"].with-gap:checked + span:after {
+  border: 2px solid #311b92 !important;
+}
+
+[type="radio"]:checked + span:after,
+[type="radio"].with-gap:checked + span:after {
+  background-color: #311b92 !important;
+}
