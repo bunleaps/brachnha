@@ -1,168 +1,126 @@
 <html>
-  <head>
-    <!--Import Google Icon Font-->
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
 
-    <!-- Primary Meta Tags -->
-    <title>BrachNha Edu | Cambodian Digital Quiz</title>
-    <meta name="title" content="BrachNha Edu | Cambodian Digital Quiz" />
-    <meta
-      name="description"
-      content="We aim to help students from grade 9 to grade 12 enhance their knowledge with real practice before taking the exams."
-    />
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://brachnha.vercel.app/" />
-    <meta property="og:title" content="BrachNha Edu | Cambodian Digital Quiz" />
-    <meta
-      property="og:description"
-      content="We aim to help students from grade 9 to grade 12 enhance their knowledge with real practice before taking the exams."
-    />
-    <meta property="og:image" content="./img/meta.png" />
+  <!-- Primary Meta Tags -->
+  <title>BrachNha Edu | Cambodian Digital Quiz</title>
+  <meta name="title" content="BrachNha Edu | Cambodian Digital Quiz" />
+  <meta name="description"
+    content="We aim to help students from grade 9 to grade 12 enhance their knowledge with real practice before taking the exams." />
 
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://brachnha.vercel.app/" />
-    <meta
-      property="twitter:title"
-      content="BrachNha Edu | Cambodian Digital Quiz"
-    />
-    <meta
-      property="twitter:description"
-      content="We aim to help students from grade 9 to grade 12 enhance their knowledge with real practice before taking the exams."
-    />
-    <meta property="twitter:image" content="./img/meta.png" />
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://brachnha.vercel.app/" />
+  <meta property="og:title" content="BrachNha Edu | Cambodian Digital Quiz" />
+  <meta property="og:description"
+    content="We aim to help students from grade 9 to grade 12 enhance their knowledge with real practice before taking the exams." />
+  <meta property="og:image" content="./img/meta.png" />
 
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="./img/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./img/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="./img/favicon-16x16.png"
-    />
-    <link rel="manifest" href="/site.webmanifest" />
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://brachnha.vercel.app/" />
+  <meta property="twitter:title" content="BrachNha Edu | Cambodian Digital Quiz" />
+  <meta property="twitter:description"
+    content="We aim to help students from grade 9 to grade 12 enhance their knowledge with real practice before taking the exams." />
+  <meta property="twitter:image" content="./img/meta.png" />
 
-    <link rel="stylesheet" href="./src/style.css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./img/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
 
-    <!-- Compiled and minified CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
-    />
+  <link rel="stylesheet" href="./src/style.css" />
 
-    <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  </head>
-  <body>
-    <!-- Load Facebook SDK for JavaScript -->
-    <div id="fb-root"></div>
-    <script>
-      window.fbAsyncInit = function () {
-        FB.init({
-          xfbml: true,
-          version: "v9.0",
-        });
-      };
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
 
-      (function (d, s, id) {
-        var js,
-          fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s);
-        js.id = id;
-        js.src = "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
-        fjs.parentNode.insertBefore(js, fjs);
-      })(document, "script", "facebook-jssdk");
-    </script>
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
 
-    <!-- Your Chat Plugin code -->
-    <div
-      class="fb-customerchat"
-      attribution="setup_tool"
-      page_id="101185238518217"
-    ></div>
+<body>
+  <!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
+  <script>
+    window.fbAsyncInit = function () {
+      FB.init({
+        xfbml: true,
+        version: "v9.0",
+      });
+    };
 
-    <br />
-    <div class="container">
-      <div class="row">
-        <div class="col s12">
-          <h1 class="center-align logo">ប្រាជ្ញា - BrachNha</h1>
-          <h4 class="center-align">
-            Igniting a brighter future with BrachNha!
-          </h4>
+    (function (d, s, id) {
+      var js,
+        fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
+      fjs.parentNode.insertBefore(js, fjs);
+    })(document, "script", "facebook-jssdk");
+  </script>
+
+  <!-- Your Chat Plugin code -->
+  <div class="fb-customerchat" attribution="setup_tool" page_id="101185238518217"></div>
+
+  <br />
+  <div class="container">
+    <div class="row">
+      <div class="col s12">
+        <h1 class="center-align logo">ប្រាជ្ញា - BrachNha</h1>
+        <h4 class="center-align">
+          Igniting a brighter future with BrachNha!
+        </h4>
+      </div>
+      <div class="col s12">
+        <div class="card-panel red accent-3 white-text center-align warning-panel hanuman-font">
+          This website is under maintenance!
+          គេហទំព័រនេះកំពុងតែស្ថិតក្នុងការកែសម្រួល!
         </div>
-        <div class="col s12">
-          <div
-            class="card-panel red accent-3 white-text center-align warning-panel hanuman-font"
-          >
-            This website is under maintenance!
-            គេហទំព័រនេះកំពុងតែស្ថិតក្នុងការកែសម្រួល!
-          </div>
-        </div>
-        <div class="col s12 m6 card-recommend">
-          <div class="card">
-            <div class="card-content">
-              <span class="card-title">
-                គណិតវិទ្យា ទី១
-                <p class="card-normal-text text-warning">
-                  សម្រាប់តែថ្នាក់ទី ៨ ឡើងតែប៉ុណ្ណោះ
-                </p></span
-              >
-              <p class="card-normal-text">
-                លំហាត់នេះមានរួមដោយ ៖ ឌឺក្រេទី ១, ប្រូបាប, ប្រព័ន្ធសម័យការ,
-                ត្រីកោណមាត្រ, ចំនួនរឺឡាទីប ។ល។
-              </p>
-              <div class="card-action">
-                <a
-                  class="blue-text text-darken-2"
-                  href="https://forms.gle/WaYUbKqf1SNwQJHQA"
-                  >ធ្វើលំហាត់</a
-                >
-              </div>
+      </div>
+      <div class="col s12 m6 card-recommend">
+        <div class="card">
+          <div class="card-content">
+            <span class="card-title">
+              គណិតវិទ្យា ទី១
+              <p class="card-normal-text text-warning">
+                សម្រាប់តែថ្នាក់ទី ៨ ឡើងទៅ
+              </p></span>
+            <p class="card-normal-text">
+              លំហាត់នេះមានរួមដោយ ៖ ឌឺក្រេទី ១, ប្រូបាប, ប្រព័ន្ធសម័យការ,
+              ត្រីកោណមាត្រ, ចំនួនរឺឡាទីប ។ល។
+            </p>
+            <div class="card-action">
+              <a class="blue-text text-darken-2" href="https://forms.gle/WaYUbKqf1SNwQJHQA">ធ្វើលំហាត់</a>
             </div>
           </div>
         </div>
-        <div class="col s12 m6 card-recommend">
-          <div class="card">
-            <div class="card-content">
-              <span class="card-title">
-                គណិតវិទ្យា ទី២
-                <p class="card-normal-text text-warning">
-                  សម្រាប់តែថ្នាក់ទី ៩ ឡើងតែប៉ុណ្ណោះ
-                </p></span
-              >
-              <p class="card-normal-text">
-                លំហាត់នេះមានរួមដោយ ៖ ឌឺក្រេទី ១, ប្រូបាប, ប្រព័ន្ធសម័យការ,
-                ត្រីកោណមាត្រ, ចំនួនរឺឡាទីប ។ល។
-              </p>
-              <div class="card-action">
-                <a
-                  class="blue-text text-darken-2"
-                  href="./quiz/02.html"
-                  >ធ្វើលំហាត់</a
-                >
-              </div>
+      </div>
+      <div class="col s12 m6 card-recommend">
+        <div class="card">
+          <div class="card-content">
+            <span class="card-title">
+              គណិតវិទ្យា ទី២
+              <p class="card-normal-text text-warning">
+                សម្រាប់តែថ្នាក់ទី ៩ ឡើងទៅ
+              </p></span>
+            <p class="card-normal-text">
+              លំហាត់នេះមានរួមដោយ ៖ ឌឺក្រេទី ១, ប្រូបាប, ប្រព័ន្ធសម័យការ,
+              ត្រីកោណមាត្រ, ចំនួនរឺឡាទីប ។ល។
+            </p>
+            <div class="card-action">
+              <a class="blue-text text-darken-2" href="./quiz/02.html">ធ្វើលំហាត់</a>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-  </body>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
 </html>
