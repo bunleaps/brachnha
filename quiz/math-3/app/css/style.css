@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Nokora:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+.guide-start {
+    cursor: help !important;
+}
+
+.guide-start:hover {
+    text-decoration: underline;
+}
+
+.reveal .lesson-start {
+    font-family: Nokora, Inter !important;
+    text-align: center;
+}
+
+.reveal h3 {
+    font-family: Nokora, Inter !important;
+    font-size: 60%;
+    text-align: start;
+}
+
+.reveal h5 {
+    font-family: Nokora, Inter !important;
+    font-size: 80%;
+    text-align: start;
+}
+
+.reveal p {
+    font-family: Nokora, Inter !important;
+    font-size: 60%;
+    text-align: start;
+}
+
+.reveal .inline-math {
+    font-size: 20px;
+}
+
+ul {
+    text-align: start;
+}
+
+ul li {
+    font-size: 60%;
+    font-family: Nokora,
+        Inter !important;
+    text-align: start !important;
+}
+
+.numberline-ex {
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
